@@ -219,6 +219,10 @@
     <Compile Include="Migrations\201606042117142_modify-category-format-genre-for-fks.Designer.cs">
       <DependentUpon>201606042117142_modify-category-format-genre-for-fks.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606042121010_seed-categories.cs" />
+    <Compile Include="Migrations\201606042121010_seed-categories.Designer.cs">
+      <DependentUpon>201606042121010_seed-categories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -308,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606042117142_modify-category-format-genre-for-fks.resx">
       <DependentUpon>201606042117142_modify-category-format-genre-for-fks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606042121010_seed-categories.resx">
+      <DependentUpon>201606042121010_seed-categories.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
