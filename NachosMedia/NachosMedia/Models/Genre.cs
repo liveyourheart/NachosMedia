@@ -13,6 +13,6 @@ namespace NachosMedia.Models
         [Required]
         public string Name { get; set; }
 
-        public byte CategoryId { get; set; }
+        public byte? CategoryId { get; set; }
     }
 }
