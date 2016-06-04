@@ -227,6 +227,10 @@
     <Compile Include="Migrations\201606042129196_seed-formats.Designer.cs">
       <DependentUpon>201606042129196_seed-formats.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606042208145_seed-genres.cs" />
+    <Compile Include="Migrations\201606042208145_seed-genres.Designer.cs">
+      <DependentUpon>201606042208145_seed-genres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -322,6 +326,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606042129196_seed-formats.resx">
       <DependentUpon>201606042129196_seed-formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606042208145_seed-genres.resx">
+      <DependentUpon>201606042208145_seed-genres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
