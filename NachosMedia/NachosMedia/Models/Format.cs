@@ -8,12 +8,12 @@ namespace NachosMedia.Models
 {
     public class Format
     {
-        public byte Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }
 
-        public byte? CategoryId { get; set; }
+        public int? CategoryId { get; set; }
 
     }
 }

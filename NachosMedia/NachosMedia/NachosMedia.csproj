@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201606042112304_add-category-format-genre.Designer.cs">
       <DependentUpon>201606042112304_add-category-format-genre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606042117142_modify-category-format-genre-for-fks.cs" />
+    <Compile Include="Migrations\201606042117142_modify-category-format-genre-for-fks.Designer.cs">
+      <DependentUpon>201606042117142_modify-category-format-genre-for-fks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -301,6 +305,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201606042112304_add-category-format-genre.resx">
       <DependentUpon>201606042112304_add-category-format-genre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606042117142_modify-category-format-genre-for-fks.resx">
+      <DependentUpon>201606042117142_modify-category-format-genre-for-fks.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
