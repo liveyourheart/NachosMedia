@@ -231,6 +231,10 @@
     <Compile Include="Migrations\201606042208145_seed-genres.Designer.cs">
       <DependentUpon>201606042208145_seed-genres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606062158126_add-media-record-model.cs" />
+    <Compile Include="Migrations\201606062158126_add-media-record-model.Designer.cs">
+      <DependentUpon>201606062158126_add-media-record-model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -239,6 +243,7 @@
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MediaRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -329,6 +334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606042208145_seed-genres.resx">
       <DependentUpon>201606042208145_seed-genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606062158126_add-media-record-model.resx">
+      <DependentUpon>201606062158126_add-media-record-model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
