@@ -236,13 +236,19 @@
     <Compile Include="Migrations\201606062158126_add-media-record-model.Designer.cs">
       <DependentUpon>201606062158126_add-media-record-model.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606150529085_add-library-group-models.cs" />
+    <Compile Include="Migrations\201606150529085_add-library-group-models.Designer.cs">
+      <DependentUpon>201606150529085_add-library-group-models.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Format.cs" />
     <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Group.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Library.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MediaRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -343,6 +349,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606062158126_add-media-record-model.resx">
       <DependentUpon>201606062158126_add-media-record-model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606150529085_add-library-group-models.resx">
+      <DependentUpon>201606150529085_add-library-group-models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
