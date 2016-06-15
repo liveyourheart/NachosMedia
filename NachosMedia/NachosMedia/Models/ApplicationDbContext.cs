@@ -9,6 +9,9 @@ namespace NachosMedia.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Format> Formats { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Library> Libraries { get; set; }
+        public DbSet<Group> Groups { get; set; }
+
 
         public DbSet<MediaRecord> MediaRecords { get; set; }
         public ApplicationDbContext()
